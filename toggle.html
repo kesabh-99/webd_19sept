@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sample{
+            border : black 3px solid;
+            background-color : purple;
+            color : white;
+            font-size: 22px;
+            font-family: cursive;
+            width : 70%;
+            margin: auto;
+            padding : 20px;
+            transition : all 0.5s ease;
+        }
+      
+    </style>
+</head>
+<body>
+    <button onclick="fun()"> Click Me</button>
+    <div id="box"   >
+        <h2>Hello there</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium necessitatibus placeat est aut ab repudiandae repellendus nemo sint. Modi, a!
+        </p>
+
+    </div>
+
+
+    <script>
+       function fun()
+        {
+            document.getElementById("box").classList.toggle("sample");
+
+            // var x = document.getElementById("box");
+            // if(x.style.display == "none"){   x.style.display = "block" ; }
+            // else{
+            //     x.style.display = "none";
+          
+
+        }   
+    </script>
+</body>
+</html>
